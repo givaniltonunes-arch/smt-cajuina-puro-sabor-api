@@ -1,0 +1,31 @@
+{
+  "name": "smt-cajuina-puro-sabor-api",
+  "version": "1.0.0",
+  "description": "Back-end/API do projeto SMT Cajuína Puro Sabor, desenvolvido durante a Sprint 3 do Projeto Integrador.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/givaniltonunes-arch/smt-cajuina-puro-sabor-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/givaniltonunes-arch/smt-cajuina-puro-sabor-api/issues"
+  },
+  "homepage": "https://github.com/givaniltonunes-arch/smt-cajuina-puro-sabor-api#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
